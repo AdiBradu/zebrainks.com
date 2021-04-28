@@ -1,0 +1,69 @@
+.code{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    @media screen and (max-aspect-ratio: '3/4') {
+        width: 100%;
+        height: 50%;
+    }
+    @media screen and (min-aspect-ratio: '4/3') {
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+    .window{
+        display: flex;
+        overflow: hidden;
+        @media screen and (max-aspect-ratio: '3/4') {
+            height: 80%;
+            margin-left: auto;
+        }
+        @media screen and (min-aspect-ratio: '4/3') {
+            height: 60%;
+            margin: auto;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            .zero, .one{
+                padding: 4px;
+                font-weight: 900;
+            }
+            .zero{
+                background: transparent;
+                // background-color: white;
+                // color: black;
+            }
+            .one{
+                background: transparent;
+                // background-color: white;
+                // color: black;
+            }
+            &:nth-child(odd){
+                position: relative;
+                bottom: 90%;
+                animation-name: odd;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-fill-mode: forwards;
+            }
+            &:nth-child(even){
+                position: relative;
+                bottom: 80%;
+                animation-name: even;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+
+@keyframes odd {
+    from {bottom: 90%;}
+    to {bottom: 0%;}
+}
+
+@keyframes even {
+    from {bottom: 80%;}
+    to {bottom: 0%;}
+}

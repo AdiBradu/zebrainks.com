@@ -1,0 +1,14 @@
+.s02p{
+    .wrapper{
+        justify-content: center;
+        .primary-message{
+            @media screen and (max-aspect-ratio: '3/4') {
+                align-items: flex-end;
+                height: auto;
+            }
+            @media screen and (min-aspect-ratio: '4/3') {
+                align-items: center;
+            }
+        }
+    }
+}

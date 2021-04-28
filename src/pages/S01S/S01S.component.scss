@@ -1,0 +1,36 @@
+.s01s{
+    .wrapper{
+        @media screen and (max-aspect-ratio: '3/4') {
+            justify-content: flex-end;
+        }
+        .secondary-message{
+            @media screen and (max-aspect-ratio: '3/4') {
+                justify-content: center;
+            }
+            @media screen and (min-aspect-ratio: '4/3') {
+                justify-content: flex-end;
+            }
+        }
+        .logo-flip{
+            position: absolute;
+            top: 0%;
+            left: 100%;
+            transform: translate(-50%,-50%);
+            @media (min-width:768px) {
+                top: 0%;
+                left: 100%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        svg{
+            @media screen and (max-aspect-ratio: '3/4') {
+                width: 100vw;
+                height: auto;
+            }
+            @media screen and (min-aspect-ratio: '4/3') {
+                width: 100vh;
+                height: auto;
+            }
+        }
+    }
+}

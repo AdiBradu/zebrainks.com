@@ -1,0 +1,27 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 16px;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    @media (min-width: 768px) {
+        gap: 32px;
+      }
+      @media (min-width: 990px) {
+        gap: 64px;
+    }
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: rgba(240, 248, 255, 1);
+        z-index: 3001;
+        font-size: 10vw;
+        line-height: 0.8;
+        font-weight: 900;
+        text-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    }
+}

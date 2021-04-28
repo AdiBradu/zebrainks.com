@@ -1,0 +1,19 @@
+.surfer{
+    position: relative;
+    z-index: 1500;
+    display: flex;
+    transform-origin: bottom right;
+    svg{
+        width: auto;
+        height: auto;
+        margin-left: auto;
+    }
+    @media screen and (max-aspect-ratio: '3/4') {
+        width: 100%;
+        height: 50%;
+    }
+    @media screen and (min-aspect-ratio: '4/3') {
+        width: 50%;
+        height: 100%;
+    }
+}

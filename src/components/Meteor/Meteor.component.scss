@@ -1,0 +1,20 @@
+svg.meteor{
+    position: fixed;
+    fill: rgba(253, 253, 253, 1); 
+    width: auto;
+    @media screen and (max-aspect-ratio: '3/4') {
+        height: calc(1/12 * 100vh);
+        left: calc(11/12 * 100vw);
+        top: calc(1/12 * 100vh);
+    }
+    @media screen and (min-aspect-ratio: '4/3') {
+        height: calc(1/12 * 100vh);
+        left: calc(11/12 * 100vw);
+        top: calc(1/12 * 100vh);
+    }
+    @media screen and (aspect-ratio: '1/1') {
+        height: calc(1/12 * 100vh);
+        left: calc(11/12 * 100vw);
+        top: calc(1/12 * 100vh);
+    }
+}

@@ -1,0 +1,362 @@
+import React from 'react'
+import '../../pages/SecondaryPage/SecondaryPage.component.scss'
+import './S02S.component.scss'
+import SecondaryMessage from '../../components/SecondaryMessage/SecondaryMessage.component'
+
+export default function S01S() {
+    return (
+        <div className="secondary-page">
+            <div className="wrapper">
+                <SecondaryMessage
+                    category='web development'
+                    title='full stack web apps'
+                    description='We use HTML, CSS and JavaScript to build full-stack web applications, from presentations to e-commerce solutions.'
+                />
+                <div className="code">
+                    <div className="window">
+                        <div className="column c01" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c02" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c03" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c04" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c05" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c06" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c07" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c08" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c09" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                        <div className="column c10" id="column">
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                            <div className="one">1</div>
+                            <div className="zero">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}

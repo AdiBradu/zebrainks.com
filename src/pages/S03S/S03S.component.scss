@@ -1,0 +1,16 @@
+.s03s{
+    .wrapper{
+        justify-content: center;
+        .secondary-message{
+            @media screen and (max-aspect-ratio: '3/4') {
+                height: auto;
+            }
+        }
+        .clouds-container{
+            display: flex;
+            @media screen and (min-aspect-ratio: '4/3') {
+                align-items: center;
+            }
+        }
+    }
+}

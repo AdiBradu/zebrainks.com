@@ -1,0 +1,23 @@
+.birds{
+    position: relative;
+    display: flex;
+    height: auto;
+    @media screen and (max-aspect-ratio: '3/4') {
+        margin-left: auto;
+        width: 80%;
+    }
+    @media screen and (min-aspect-ratio: '4/3') {
+        width: 100%;
+    }
+    svg{
+        height: auto;
+        width: 100%;
+        @media screen and (max-aspect-ratio: '3/4') {
+            margin-left: auto;
+        }
+        @media screen and (min-aspect-ratio: '4/3') {
+            width: 100%;
+            margin-top: auto;
+        }
+    }
+}
